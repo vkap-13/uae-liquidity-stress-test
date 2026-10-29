@@ -1,0 +1,37 @@
+{
+  "data_source": "REAL",
+  "first_date": "2020-12-31",
+  "last_date": "2025-12-31",
+  "frequency": "quarterly",
+  "n_changes": 20,
+  "file_fingerprint": "fb20b1636634",
+  "paths": 10000,
+  "seed": 42,
+  "deposits0_bn": 10.0,
+  "liquidity0_bn": 2.5,
+  "keep_drift": false,
+  "allow_large_moves": false,
+  "runoff_cv": 0.4,
+  "scenarios": {
+    "Baseline": {
+      "vol_mult": 1.0,
+      "runoff_mean": 0.0
+    },
+    "Mild": {
+      "vol_mult": 1.5,
+      "runoff_mean": 0.03
+    },
+    "Moderate": {
+      "vol_mult": 2.0,
+      "runoff_mean": 0.07
+    },
+    "Severe": {
+      "vol_mult": 3.0,
+      "runoff_mean": 0.15
+    },
+    "Extreme": {
+      "vol_mult": 3.0,
+      "runoff_mean": 0.25
+    }
+  }
+}

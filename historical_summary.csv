@@ -1,0 +1,2 @@
+data_source,first_date,last_date,frequency,n_changes,mean_growth_pct,sd_growth_pct,skew,excess_kurtosis,worst_period_growth_pct,worst_period,p05_growth_pct,mean_30day_equiv_pct,sd_30day_equiv_pct
+REAL,2020-12-31,2025-12-31,quarterly,20,2.8619182722279533,1.4898659642971106,-0.350073948613986,-0.636710345379385,-0.17388812684229205,2021-03,0.4533329040824319,0.9539727574093178,0.8601745155433982
